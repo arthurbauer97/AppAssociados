@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "c:\\Users\\Guilherme\\Desktop\\Workspace\\lpc\\atividades-lpc\\AppAssociados\\AppAssociados.Domain\\AppAssociados.Domain.csproj",
+  "TargetFramework": "netcoreapp2.0",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  }
+}

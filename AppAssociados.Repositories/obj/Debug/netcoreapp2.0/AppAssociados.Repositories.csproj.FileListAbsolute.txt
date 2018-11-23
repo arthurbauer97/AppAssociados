@@ -1,0 +1,12 @@
+C:\Users\Guilherme\Desktop\Workspace\lpc\atividades-lpc\AppAssociados\AppAssociados.Repositories\bin\Debug\netcoreapp2.0\AppAssociados.Repositories.deps.json
+C:\Users\Guilherme\Desktop\Workspace\lpc\atividades-lpc\AppAssociados\AppAssociados.Repositories\bin\Debug\netcoreapp2.0\AppAssociados.Repositories.dll
+C:\Users\Guilherme\Desktop\Workspace\lpc\atividades-lpc\AppAssociados\AppAssociados.Repositories\bin\Debug\netcoreapp2.0\AppAssociados.Repositories.pdb
+C:\Users\Guilherme\Desktop\Workspace\lpc\atividades-lpc\AppAssociados\AppAssociados.Repositories\bin\Debug\netcoreapp2.0\AppAssociados.Domain.dll
+C:\Users\Guilherme\Desktop\Workspace\lpc\atividades-lpc\AppAssociados\AppAssociados.Repositories\bin\Debug\netcoreapp2.0\AppAssociados.Domain.pdb
+C:\Users\Guilherme\Desktop\Workspace\lpc\atividades-lpc\AppAssociados\AppAssociados.Repositories\obj\Debug\netcoreapp2.0\AppAssociados.Repositories.csprojAssemblyReference.cache
+C:\Users\Guilherme\Desktop\Workspace\lpc\atividades-lpc\AppAssociados\AppAssociados.Repositories\obj\Debug\netcoreapp2.0\AppAssociados.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\Guilherme\Desktop\Workspace\lpc\atividades-lpc\AppAssociados\AppAssociados.Repositories\obj\Debug\netcoreapp2.0\AppAssociados.Repositories.AssemblyInfoInputs.cache
+C:\Users\Guilherme\Desktop\Workspace\lpc\atividades-lpc\AppAssociados\AppAssociados.Repositories\obj\Debug\netcoreapp2.0\AppAssociados.Repositories.AssemblyInfo.cs
+C:\Users\Guilherme\Desktop\Workspace\lpc\atividades-lpc\AppAssociados\AppAssociados.Repositories\obj\Debug\netcoreapp2.0\AppAssociados.Repositories.csproj.CopyComplete
+C:\Users\Guilherme\Desktop\Workspace\lpc\atividades-lpc\AppAssociados\AppAssociados.Repositories\obj\Debug\netcoreapp2.0\AppAssociados.Repositories.dll
+C:\Users\Guilherme\Desktop\Workspace\lpc\atividades-lpc\AppAssociados\AppAssociados.Repositories\obj\Debug\netcoreapp2.0\AppAssociados.Repositories.pdb

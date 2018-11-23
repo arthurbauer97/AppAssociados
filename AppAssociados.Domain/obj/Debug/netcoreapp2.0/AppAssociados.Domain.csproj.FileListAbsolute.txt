@@ -1,0 +1,9 @@
+C:\Users\Guilherme\Desktop\Workspace\lpc\atividades-lpc\AppAssociados\AppAssociados.Domain\bin\Debug\netcoreapp2.0\AppAssociados.Domain.deps.json
+C:\Users\Guilherme\Desktop\Workspace\lpc\atividades-lpc\AppAssociados\AppAssociados.Domain\bin\Debug\netcoreapp2.0\AppAssociados.Domain.dll
+C:\Users\Guilherme\Desktop\Workspace\lpc\atividades-lpc\AppAssociados\AppAssociados.Domain\bin\Debug\netcoreapp2.0\AppAssociados.Domain.pdb
+C:\Users\Guilherme\Desktop\Workspace\lpc\atividades-lpc\AppAssociados\AppAssociados.Domain\obj\Debug\netcoreapp2.0\AppAssociados.Domain.csprojAssemblyReference.cache
+C:\Users\Guilherme\Desktop\Workspace\lpc\atividades-lpc\AppAssociados\AppAssociados.Domain\obj\Debug\netcoreapp2.0\AppAssociados.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Guilherme\Desktop\Workspace\lpc\atividades-lpc\AppAssociados\AppAssociados.Domain\obj\Debug\netcoreapp2.0\AppAssociados.Domain.AssemblyInfoInputs.cache
+C:\Users\Guilherme\Desktop\Workspace\lpc\atividades-lpc\AppAssociados\AppAssociados.Domain\obj\Debug\netcoreapp2.0\AppAssociados.Domain.AssemblyInfo.cs
+C:\Users\Guilherme\Desktop\Workspace\lpc\atividades-lpc\AppAssociados\AppAssociados.Domain\obj\Debug\netcoreapp2.0\AppAssociados.Domain.dll
+C:\Users\Guilherme\Desktop\Workspace\lpc\atividades-lpc\AppAssociados\AppAssociados.Domain\obj\Debug\netcoreapp2.0\AppAssociados.Domain.pdb
