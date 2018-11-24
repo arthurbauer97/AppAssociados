@@ -1,0 +1,4 @@
+C:\Users\Arthur-PC\Desktop\AppAssociados\AppAssociados.API\obj\Debug\netstandard2.0\AppAssociados.API.csprojAssemblyReference.cache
+C:\Users\Arthur-PC\Desktop\AppAssociados\AppAssociados.API\obj\Debug\netstandard2.0\AppAssociados.API.csproj.CoreCompileInputs.cache
+C:\Users\Arthur-PC\Desktop\AppAssociados\AppAssociados.API\obj\Debug\netstandard2.0\AppAssociados.API.AssemblyInfoInputs.cache
+C:\Users\Arthur-PC\Desktop\AppAssociados\AppAssociados.API\obj\Debug\netstandard2.0\AppAssociados.API.AssemblyInfo.cs

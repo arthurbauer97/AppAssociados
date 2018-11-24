@@ -13,5 +13,7 @@ namespace AppAssociados.Repositories
         public DbSet<EstadoCivil> EstadoCivil { get; set; }
         public DbSet<Parentesco> Parentesco { get; set; }
         public DbSet<Dependente> Dependente { get; set; }
+
+        public DbSet<Usuario> Usuario { get; set; }
     }
 }

@@ -709,6 +709,9 @@
         }
       },
       "AppAssociados.Domain/1.0.0": {
+        "dependencies": {
+          "System.ComponentModel.Annotations": "4.5.0"
+        },
         "runtime": {
           "AppAssociados.Domain.dll": {}
         },
