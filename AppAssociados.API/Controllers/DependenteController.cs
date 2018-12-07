@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using AppAssociados.Domain;
 using AppAssociados.Repositories.Interfaces;
 using Microsoft.AspNetCore.Mvc;
@@ -14,16 +15,18 @@ namespace AppAssociados.API.Controllers
             this.repository = repository;
         }
 
-        [HttpGet]
-        public IEnumerable<Dependente> Get()
+
+
+         [HttpGet]
+        public async Task<IEnumerable<Dependente>> Get()
         {
-            return this.repository.GetAll();
+            return await this.repository.GetAllAsync();
         }
 
         [HttpGet("{id}")]
-        public Dependente Get(int id)
+        public async Task<Dependente> Get(int id)
         {
-            return this.repository.GetById(id);
+            return await this.repository.GetByIdAsync(id);
         }
 
         [HttpPost]

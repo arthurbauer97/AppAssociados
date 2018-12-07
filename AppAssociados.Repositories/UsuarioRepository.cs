@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using AppAssociados.Domain;
 using AppAssociados.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
@@ -36,6 +37,16 @@ namespace AppAssociados.Repositories
         public Usuario GetById(int id)
         {
             return context.Usuario.SingleOrDefault(x => x.id == id);
+        }
+
+          public Task<List<Usuario>> GetAllAsync()
+        {
+            return context.Usuario.ToListAsync();
+        }
+
+         public Task<Usuario> GetByIdAsync(int id)
+        {
+            return context.Usuario.SingleOrDefaultAsync(x => x.id == id);
         }
 
         public void Update(Usuario obj)

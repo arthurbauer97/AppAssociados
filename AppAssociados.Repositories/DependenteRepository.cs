@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using AppAssociados.Domain;
 using AppAssociados.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
@@ -33,10 +34,19 @@ namespace AppAssociados.Repositories
         {
             return context.Dependente.Include(a => a.associado).Include(p => p.parentesco).ToList();
         }
-
         public Dependente GetById(int id)
         {
             return context.Dependente.Include(a => a.associado).Include(p => p.parentesco).SingleOrDefault(x => x.id == id);
+        }
+
+          public Task<List<Dependente>> GetAllAsync()
+        {
+            return context.Dependente.ToListAsync();
+        }
+
+         public Task<Dependente> GetByIdAsync(int id)
+        {
+            return context.Dependente.SingleOrDefaultAsync(x => x.id == id);
         }
 
         public void Update(Dependente obj)

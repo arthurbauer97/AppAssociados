@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace AppAssociados.Repositories.Interfaces
 {
@@ -10,5 +11,7 @@ namespace AppAssociados.Repositories.Interfaces
         List<Entity> GetAll();
         void Update(Entity obj);
         void Delete(int id);
+        Task <Entity> GetByIdAsync(int id);
+        Task <List<Entity>> GetAllAsync();
     }
 }

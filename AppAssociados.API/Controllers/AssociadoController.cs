@@ -1,4 +1,6 @@
 using System.Collections.Generic;
+using System.Threading.Tasks;
+using AppAssociados.API.DTOs;
 using AppAssociados.Domain;
 using AppAssociados.Repositories.Interfaces;
 using Microsoft.AspNetCore.Mvc;
@@ -13,13 +15,27 @@ namespace AppAssociados.API.Controllers
         public AssociadoController(IAssociadoRepository repository) {
             this.repository = repository;
         }
-
+      
         [HttpGet]
-        public IEnumerable<Associado> Get()
+        public IEnumerable<AssociadoDTO> Get()
         {
-            return this.repository.GetAll();
-        }
+            var users = this.repository.GetAll();
 
+            var associadosDTO = new List<AssociadoDTO>();
+
+
+                users.ForEach(associado => {
+                    associadosDTO.Add(
+                    new AssociadoDTO{ 
+                        nome = associado.nome,
+                        cpf = associado.cpf,
+                        cidade = associado.cidade
+
+                    }   
+                );    
+        });
+        return associadosDTO;
+        }
         [HttpGet("{id}")]
         public Associado Get(int id)
         {

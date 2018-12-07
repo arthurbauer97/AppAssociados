@@ -7,7 +7,6 @@ namespace AppAssociados.Domain
         public int id { get; set; }
 
         [Required(ErrorMessage="Estado Civil Obrigatorio!",AllowEmptyStrings=false)]
-
         public string descricao { get; set; }
     }
 }

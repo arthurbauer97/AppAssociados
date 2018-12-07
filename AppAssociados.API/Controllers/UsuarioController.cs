@@ -6,6 +6,7 @@ using System.IdentityModel.Tokens.Jwt;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using Microsoft.AspNetCore.Authorization;
+using AppAssociados.API.DTOs;
 
 namespace AppAssociados.API.Controllers
 {
@@ -17,13 +18,26 @@ namespace AppAssociados.API.Controllers
         public UsuarioController(IUsuarioRepository repository) {
             this.repository = repository;
         }
-
-        [Authorize]
+        
         [HttpGet]
-        public IEnumerable<Usuario> Get()
+        public IEnumerable<UsuarioDTO> Get()
         {
-            return this.repository.GetAll();
+            var users = this.repository.GetAll();
+
+            var usersDTO = new List<UsuarioDTO>();
+
+
+                users.ForEach(usuario => {
+                    usersDTO.Add(
+                    new UsuarioDTO{
+                        id = usuario.id, 
+                        name = usuario.usuario
+                    }   
+                );    
+        });
+        return usersDTO;
         }
+               
 
         [HttpGet("{id}")]
         public Usuario Get(int id)
@@ -31,9 +45,8 @@ namespace AppAssociados.API.Controllers
             return this.repository.GetById(id);
         }
 
-          [Authorize]
-           [HttpPost]
-        public IActionResult Post([FromBody]Usuario item)
+            [HttpPost]
+            public IActionResult Post([FromBody]Usuario item)
             {
         if (ModelState.IsValid)
         {
@@ -56,7 +69,9 @@ namespace AppAssociados.API.Controllers
             });
         }
     }
-        
+
+
+
             [HttpPut]
             public IActionResult Put([FromBody]Usuario usuario)
             {

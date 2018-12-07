@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using AppAssociados.Domain;
 using AppAssociados.Repositories.Interfaces;
 using Microsoft.AspNetCore.Mvc;
@@ -15,15 +16,15 @@ namespace AppAssociados.API.Controllers
         }
 
         [HttpGet]
-        public IEnumerable<Parentesco> Get()
+        public async Task<IEnumerable<Parentesco>> Get()
         {
-            return this.repository.GetAll();
+            return await this.repository.GetAllAsync();
         }
 
         [HttpGet("{id}")]
-        public Parentesco Get(int id)
+        public async Task<Parentesco> Get(int id)
         {
-            return this.repository.GetById(id);
+            return await this.repository.GetByIdAsync(id);
         }
 
         [HttpPost]
